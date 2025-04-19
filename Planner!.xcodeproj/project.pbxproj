@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3572327C2DB32328004583D7 /* Planner_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572327B2DB32328004583D7 /* Planner_App.swift */; };
-		3572327E2DB32328004583D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572327D2DB32328004583D7 /* ContentView.swift */; };
 		357232802DB32329004583D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3572327F2DB32329004583D7 /* Assets.xcassets */; };
 		357232842DB32329004583D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357232832DB32329004583D7 /* Preview Assets.xcassets */; };
 		3572328E2DB32329004583D7 /* Planner_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572328D2DB32329004583D7 /* Planner_Tests.swift */; };
 		357232982DB32329004583D7 /* Planner_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357232972DB32329004583D7 /* Planner_UITests.swift */; };
 		3572329A2DB32329004583D7 /* Planner_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357232992DB32329004583D7 /* Planner_UITestsLaunchTests.swift */; };
+		357232BE2DB32460004583D7 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357232B72DB32460004583D7 /* MainTabView.swift */; };
+		357232BF2DB32460004583D7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 357232B82DB32460004583D7 /* README.md */; };
+		357232C02DB32460004583D7 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357232B92DB32460004583D7 /* NotesView.swift */; };
+		357232C12DB32460004583D7 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 357232BA2DB32460004583D7 /* LICENSE */; };
+		357232C22DB32460004583D7 /* PlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357232BB2DB32460004583D7 /* PlannerApp.swift */; };
+		357232C32DB32460004583D7 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357232BC2DB32460004583D7 /* CalendarView.swift */; };
+		357232C42DB32460004583D7 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357232BD2DB32460004583D7 /* TodoListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +40,6 @@
 
 /* Begin PBXFileReference section */
 		357232782DB32328004583D7 /* Planner!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Planner!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3572327B2DB32328004583D7 /* Planner_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planner_App.swift; sourceTree = "<group>"; };
-		3572327D2DB32328004583D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3572327F2DB32329004583D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		357232812DB32329004583D7 /* Planner_.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Planner_.entitlements; sourceTree = "<group>"; };
 		357232832DB32329004583D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +48,14 @@
 		357232932DB32329004583D7 /* Planner!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Planner!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		357232972DB32329004583D7 /* Planner_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planner_UITests.swift; sourceTree = "<group>"; };
 		357232992DB32329004583D7 /* Planner_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planner_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		357232B62DB32460004583D7 /* Planner!-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Planner!-Bridging-Header.h"; sourceTree = "<group>"; };
+		357232B72DB32460004583D7 /* MainTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		357232B82DB32460004583D7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "Planner!/README.md"; sourceTree = "<group>"; };
+		357232B92DB32460004583D7 /* NotesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		357232BA2DB32460004583D7 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = "Planner!/LICENSE"; sourceTree = "<group>"; };
+		357232BB2DB32460004583D7 /* PlannerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlannerApp.swift; sourceTree = "<group>"; };
+		357232BC2DB32460004583D7 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		357232BD2DB32460004583D7 /* TodoListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +86,8 @@
 		3572326F2DB32328004583D7 = {
 			isa = PBXGroup;
 			children = (
+				357232BA2DB32460004583D7 /* LICENSE */,
+				357232B82DB32460004583D7 /* README.md */,
 				3572327A2DB32328004583D7 /* Planner! */,
 				3572328C2DB32329004583D7 /* Planner!Tests */,
 				357232962DB32329004583D7 /* Planner!UITests */,
@@ -95,11 +108,15 @@
 		3572327A2DB32328004583D7 /* Planner! */ = {
 			isa = PBXGroup;
 			children = (
-				3572327B2DB32328004583D7 /* Planner_App.swift */,
-				3572327D2DB32328004583D7 /* ContentView.swift */,
+				357232BC2DB32460004583D7 /* CalendarView.swift */,
+				357232B72DB32460004583D7 /* MainTabView.swift */,
+				357232B92DB32460004583D7 /* NotesView.swift */,
+				357232BB2DB32460004583D7 /* PlannerApp.swift */,
+				357232BD2DB32460004583D7 /* TodoListView.swift */,
 				3572327F2DB32329004583D7 /* Assets.xcassets */,
 				357232812DB32329004583D7 /* Planner_.entitlements */,
 				357232822DB32329004583D7 /* Preview Content */,
+				357232B62DB32460004583D7 /* Planner!-Bridging-Header.h */,
 			);
 			path = "Planner!";
 			sourceTree = "<group>";
@@ -197,6 +214,7 @@
 				TargetAttributes = {
 					357232772DB32328004583D7 = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 					};
 					357232882DB32329004583D7 = {
 						CreatedOnToolsVersion = 15.2;
@@ -233,7 +251,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				357232BF2DB32460004583D7 /* README.md in Resources */,
 				357232842DB32329004583D7 /* Preview Assets.xcassets in Resources */,
+				357232C12DB32460004583D7 /* LICENSE in Resources */,
 				357232802DB32329004583D7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3572327E2DB32328004583D7 /* ContentView.swift in Sources */,
-				3572327C2DB32328004583D7 /* Planner_App.swift in Sources */,
+				357232C22DB32460004583D7 /* PlannerApp.swift in Sources */,
+				357232C02DB32460004583D7 /* NotesView.swift in Sources */,
+				357232C42DB32460004583D7 /* TodoListView.swift in Sources */,
+				357232C32DB32460004583D7 /* CalendarView.swift in Sources */,
+				357232BE2DB32460004583D7 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Planner!/Planner_.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -442,6 +466,8 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Planner!/Planner!-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,6 +478,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Planner!/Planner_.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -478,6 +505,7 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Planner!/Planner!-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
