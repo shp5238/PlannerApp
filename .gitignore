@@ -1,0 +1,19 @@
+# Xcode
+DerivedData/
+*.xcuserstate
+*.xcworkspace
+*.xcuserdata/
+
+# CocoaPods
+/Pods/
+
+# Carthage
+/Carthage/
+
+# Swift Package Manager
+/.build/
+
+# Other files to ignore
+*.swp
+*.DS_Store
+
